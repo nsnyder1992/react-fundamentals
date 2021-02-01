@@ -85,23 +85,25 @@ const HelloWorld = function () {
   );
 };
 
-const HelloWorldFatArrow = () => (
-  <div>
-    <Card>
-      <img
-        width="100%"
-        height="280px"
-        src="https://i.ytimg.com/vi/_pfXEv9cFGE/maxresdefault.jpg"
-        alt="Card cap"
-      />
-      <CardBody>
-        <CardTitle>Fat Arrow</CardTitle>
-        <CardSubtitle>A JS Library</CardSubtitle>
-        <CardText>
-          <pre>const HelloWorld = () => </pre>.
-        </CardText>
-        <Button>Go somewhere man</Button>
-      </CardBody>
-    </Card>
-  </div>
-);
+const HelloWorldFatArrow = () => {
+  return (
+    <div>
+      <Card>
+        <img
+          width="100%"
+          height="280px"
+          src="https://i.ytimg.com/vi/_pfXEv9cFGE/maxresdefault.jpg"
+          alt="Card cap"
+        />
+        <CardBody>
+          <CardTitle>Fat Arrow</CardTitle>
+          <CardSubtitle>A JS Library</CardSubtitle>
+          <CardText>
+            <pre>const HelloWorld = () => </pre>.
+          </CardText>
+          <Button>Go somewhere man</Button>
+        </CardBody>
+      </Card>
+    </div>
+  );
+};
