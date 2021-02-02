@@ -99,7 +99,7 @@ const HelloWorldFatArrow = () => {
           <CardTitle>Fat Arrow</CardTitle>
           <CardSubtitle>A JS Library</CardSubtitle>
           <CardText>
-            <pre>const HelloWorld = () => </pre>.
+            <pre>HelloWorld = () </pre>.
           </CardText>
           <Button>Go somewhere man</Button>
         </CardBody>
